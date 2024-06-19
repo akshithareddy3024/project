@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapX Photography</title>
+    <link rel="stylesheet" href="./html.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <nav class="Navmain">
+        <a class="navbar-brand" href="#">
+            <img src="../logo.png" alt="SnapX Logo" width="30" height="30">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Photos & Videos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Categories</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Users</a></li>
+            </ul>
+            <button class="btn btn-outline-primary"><i class="fas fa-user"></i> Sign In/Up</button>
+        </div>
+    </nav>
+
+    <header class="main-header text-center text-white">
+        <h1>Enter a World of <span class="text-primary">Photos</span> & Amazing</h1>
+        <h2 class="text-primary">Awards</h2>
+        <hr class="w-50 mx-auto">
+        <p>SnapX Photography is a professional website template with 5 different HTML pages for maximum customization. It is free for commercial usage. This bootstrap v5.1.3 CSS layout is provided by TemplateMo Free CSS Template.</p>
+        <div class="mt-4">
+            <a href="#" class="btn btn-primary">Explore SnapX Contest</a>
+            <a href="#" class="btn btn-secondary"><i class="fa-solid fa-play"></i> Watch Our Videos Now</a>
+        </div>
+    </header>
+
+    <section class="featured-images text-center my-5">
+        <div class="d-flex justify-content-between align-items-center">
+            <button class="btn btn-light"><i class="fa fa-arrow-left"></i></button>
+            <img src="../featured-03.jpg" alt="Featured 1" class="img-fluid rounded">
+            <img src="../Screenshot 2024-05-18 130930.png" alt="Featured 2" class="img-fluid rounded mx-3">
+            <img src="../featured-02.jpg" alt="Featured 3" class="img-fluid rounded">
+            <button class="btn btn-light"><i class="fa fa-arrow-right"></i></button>
+        </div>
+    </section>
+
+    <section class="categories my-5">
+        <div class="text-center">
+            <h2>OUR CATEGORIES</h2>
+            <button class="btn btn-primary mb-4">Discover All Categories</button>
+            <h3>Check out <span class="text-primary">Popular</span> Contest <span class="text-primary">Categories</span></h3>
+        </div>
+        <div class="d-flex justify-content-around flex-wrap">
+            <div class="card category-card">
+                <img src="../icon-01.png" class="card-img-top" alt="Nature Pic Contest">
+                <div class="card-body">
+                    <h5 class="card-title">Nature Pic Contest</h5>
+                    <p class="card-text"><span class="text-primary">126</span> Available Contestants</p>
+                    <img src="../popular-01.png" alt="Nature Pic" class="img-fluid rounded">
+                    <a href="#" class="btn btn-outline-primary mt-2">Browse Nature Pic Contests</a>
+                </div>
+            </div>
+            <div class="card category-card">
+                <img src="../icon-02.png" class="card-img-top" alt="Random Pic Contest">
+                <div class="card-body">
+                    <h5 class="card-title">Random Pic Contest</h5>
+                    <p class="card-text"><span class="text-primary">116</span> Available Contestants</p>
+                    <img src="../popular-02.png" alt="Random Pic" class="img-fluid rounded">
+                    <a href="#" class="btn btn-outline-primary mt-2">Browse Random Pic Contests</a>
+                </div>
+            </div>
+            <div class="card category-card">
+                <img src="../icon-03.png" class="card-img-top" alt="Portrait Pic Contest">
+                <div class="card-body">
+                    <h5 class="card-title">Portrait Pic Contest</h5>
+                    <p class="card-text"><span class="text-primary">164</span> Available Contestants</p>
+                    <img src="../popular-03.png" alt="Portrait Pic" class="img-fluid rounded">
+                    <a href="#" class="btn btn-outline-primary mt-2">Browse Portrait Pic Contests</a>
+                </div>
+            </div>
+            <div class="card category-card">
+                <img src="../icon-04.png" class="card-img-top" alt="Space Pic Contest">
+                <div class="card-body">
+                    <h5 class="card-title">Space Pic Contest</h5>
+                    <p class="card-text"><span class="text-primary">135</span> Available Contestants</p>
+                    <img src="../popular-04.png" alt="Space Pic" class="img-fluid rounded">
+                    <a href="#" class="btn btn-outline-primary mt-2">Browse Space Pic Contests</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="closed-contests bg-light py-5">
+        <div class="container text-center">
+            <h2 class="text-primary">CLOSED PHOTOGRAPHY CONTESTS</h2>
+            <p>Previous Content With HandPicked <span class="text-primary">Winners</span></p>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="../image01.jpg" alt="Closed Contest 1" class="img-fluid rounded">
+                    <div class="d-flex justify-content-between mt-2">
+                        <span><strong>96 Participants</strong></span>
+                        <span><strong>410 Pictures</strong></span>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <span>06.04.2022</span>
+                        <a href="#" class="btn btn-outline-primary">View Winners</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="../image02.jpg" alt="Closed Contest 2" class="img-fluid rounded">
+                    <div class="d-flex justify-content-between mt-2">
+                        <span><strong>106 Participants</strong></span>
+                        <span><strong>465 Pictures</strong></span>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <span>15.03.2022</span>
+                        <a href="#" class="btn btn-outline-primary">View Winners</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="../image1.jpg" alt="Closed Contest 3" class="img-fluid rounded">
+                    <div class="d-flex justify-content-between mt-2">
+                        <span><strong>80 Participants</strong></span>
+                        <span><strong>388 Pictures</strong></span>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <span>12.03.2022</span>
+                        <a href="#" class="btn btn-outline-primary">View Winners</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-4">
+        <p>&copy; 2024 SnapX. All rights reserved.</p>
+    </footer>
+</body>
+</html>

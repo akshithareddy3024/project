@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+/* categories div */
+.categories{
+  width: 100%;
+  height: 40vh;
+  
+}
+
+.categories_flex{
+  /* display: grid;
+  grid-template-rows: repeat(4,1fr);
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4,1fr); */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* background-color: red; */
+  justify-content: space-evenly;
+  
+}
+.box1{
+  
+  width: 300px;
+  height: 320px;
+  border: 0.5px outset black;
+  border-radius: 8%;
+  text-align: center;
+}
+
+.box1 h3{
+  margin-left: 20%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box1 span{
+   padding: 2px;
+   color:grey;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: lighter;
+   margin-left: 10%;
+   border:1px  white;
+
+}
+.button2{
+  color:skyblue;
+  cursor: pointer; 
+  border:1px inset skyblue; 
+  font-size: 15px;
+  border-radius: 10px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 5px;
+  margin-top: 4%;
+  margin-left: 9%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* end */
+/* start of nav div */
+.main
+{
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 65px;
+    line-height: 20px;
+    background-color:white;
+}
+.logo
+{
+    margin-left: 0%;
+    flex-wrap: wrap;
+}
+.navigation
+{
+    margin-left: 3%;
+    width: 40%;
+    background-color:skyblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+  .navigation span a
+  {
+     text-decoration: none;
+     color: white;
+     justify-content: space-between;
+  }
+  .button
+  {
+  background-color: white;
+  /* color: black; */
+  cursor: pointer;
+  border:2px solid skyblue;
+  margin:5px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 135px;
+  height: 30px;
+  text-align: center;
+  padding-top: 9px;
+  align-items: center;
+  color:skyblue;
+  }
+  
+  .button:hover{
+    transform: scale(1.2);
+    background-color:skyblue;
+    color:beige;
+  }
+  .button i:hover{
+    transform: scale(1.2);
+    background-color:skyblue;
+    color:beige;
+  }
+.navigation span a:hover
+{
+  background-color:grey;
+  transform: scale(1.5);
+  color:aliceblue;
+  transition-duration: 2s;
+}
+/* end */
+/* 2nd div */
+.main1
+{
+  background-image: url(../banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1480px;
+  height:700px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ align-content: center;
+ justify-content: center;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button1{
+  color:white;
+  cursor: pointer;
+  border:1px inset white;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+  padding-top: 10px;
+  text-align: center;
+  margin-left: 60px;
+  margin-top: 30px;
+
+}
+.watch{
+  color: white !important ;
+  margin-left: 25%;
+  margin-top: -38px;
+
+}
+.button1:hover{
+  transform: scale(1.2);
+  background-color:skyblue;
+  color:beige;
+}
+ .span2
+ {
+  font-size: 2.8em;
+  font-weight: bolder;
+  border-bottom: 1px outset white; 
+  width: 760px;
+  text-align: center;
+  padding-bottom: 50px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.border
+{
+  border: 2px inset  black;
+  width: 100px;
+ 
+
+}  
+/* 3rd div */
+.main3
+{
+display: flex;
+/* flex-wrap: wrap; */
+flex-direction: row;
+position: absolute;
+top: 93%;
+justify-content:space-evenly;
+}
+.main3>div{
+  margin-left: 9%;
+}
+/* end div */
+/* 4th div */
+.main4{
+  display: flex;
+flex-wrap: wrap;  
+  margin-top: 150px;
+}
+.content3 button{
+  width: 200px;
+  height: 40px;
+  background-color:skyblue;
+  border-radius: 10px;
+  margin-left: 1300px;
+  border: none;
+  color: white;
+  margin-top: -3%;
+}
+.content4
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+    </style>
+</head>
+<body>
+ <!--1st div  --> 
+<div class="main">
+        <div class="logo">
+            <img src="../logo.png">
+        </div>
+        <div class="navigation">
+          <span><a href="">HOME</a></span>
+          <span><a href="">PHOTOS&VIDEOS</a></span>
+          <span><a href="">CATEGORIES</a></span>
+          <span><a href="">USERS</a></span>
+        </div>
+        <div class="button">
+        <div>     <i class="fa-solid fa-user"></i>SignIn/up</div>
+        </div>
+<div>
+    <!-- end -->
+    <!-- 2nd div -->
+    <div class="main1">
+        <div><h1 style="font-size: 2.5rem; word-spacing: 2px;text-align:center;">Enter a World of<span class="" style="color:skyblue;">   Photos</span>  & Amazing</h1></div>
+        <span class="" style="color: skyblue; font-size: 2.5rem; text-align: center;">  Awards</span>
+        <hr style="width: 660px;margin-top: 1%;">
+        <div style="font-family: 'Times New Roman', Times, serif;margin-top: -5px;font-size: smaller;text-align: center;"><p>Snapx PhotoGraphy is a professional website template with 5 different HTML Pages for maximum Customization.It is free </p></div>
+        <div style="font-family: 'Times New Roman', Times, serif;margin-top: -20px;font-size: smaller;text-align: center;"><p>for Commercial usage.This bootstrap v5.1.3 CSS layout is provided by TemplateMo Free Css Template</p></div>
+       
+        <div class="button1">
+            Explore SnapX Contest 
+        </div>
+        <div class="watch">
+            <span><i class="fa-solid fa-play"></i><b>       Watch Our Videos Now</b></span>
+        </div>
+</div>
+<!-- 3rd div -->
+<div class="main3">
+    <img src="../arrow front.png front.png" width="20px" height="20px" style="background-color: skyblue;border-radius: 50%; padding: 5px;margin-left: 5%; margin-top: 10.5%;">
+    <div class="img1">
+        <img src="../featured-03.jpg" width="310px"style="border-radius: 5%;">
+    </div>
+    <div class="img2">
+        <img src="../Screenshot 2024-05-18 130930.png 2024-05-18 130930.png" width="310px"style="border-radius: 5%;">
+    </div>
+    <div class="img3">
+        <img src="../featured-02.jpg"width="310px"style="border-radius: 5%;">
+    </div>
+    <img src="../arrow back.png back.png"width="20px" height="20px" style="background-color: skyblue;border-radius: 50%; padding: 5px;margin-left: 10%; margin-top: 10.5%;">
+     
+</div>
+<!-- end of div -->
+<!-- 4th div -->
+<div class="main4">
+    <div class="content3">
+        <p style="color: skyblue; margin-left: 60px;">OUR CATEGORIES</p>
+        <button><b>Discover All Categories</b></button>
+    </div>
+    <div class="content4">
+        <h1 style="margin-left: 60px;margin-top: -5%;">Check out<span class="span3" style="color: skyblue">&nbsp;&nbsp;Popular</span>&nbsp;&nbsp;Contest<span class="span3" style="color: skyblue">&nbsp;&nbsp;Categories</span></h1> 
+    </div>
+</div>
+<!-- end div -->
+<!-- categories div -->
+    <div class="categories">
+        <div class="categories_flex">
+          <div class="box1">
+              <h3><img src="../icon-01.png" style="float:inline-start;">Nature Pic Contest</h3>
+              <span style="color: skyblue;">126</span>
+              <span>Available Contestants</span>
+              <img src="../popular-01.png" style="margin-top: 3%;border-radius: 5%;" width="250px" >
+              <div class="button2">
+               Browse Nature Pic Contests
+              </div>
+          </div>
+          <div class="box1">
+              <h3><img src="../icon-02.png" style="float:inline-start;">Random Pic Contest</h3>
+              <span style="color: skyblue; ">116<span>Available Contestants</span></span>
+              
+              <img src="../popular-02.png" style="margin-top: 3%; border-radius: 5%;" width="250px">
+              <div class="button2">
+               Browse Random Pic Contests
+              </div>
+          </div>
+          <div class="box1">
+              <h3><img src="../icon-03.png" style="float:inline-start;">Potrait Pic Contest</h3>
+              <span style="color: skyblue";>164</span>
+              <span>Available Contestants</span>
+              <img src="../popular-03.png" style="margin-top: 3%;border-radius: 5%;" width="250px">
+              <div class="button2">
+               Browse Potrait Pic Contests
+              </div>
+          </div>
+          <div class="box1">
+              <h3><img src="../icon-04.png"style="float:inline-start;">Space Pic Contest</h3>
+              <span style="color: skyblue";>135</span>
+              <span>Available Contestants</span>
+              <img src="../popular-04.png" style="margin-top: 3%;border-radius: 5%;" width="250px";>
+              <div class="button2">
+               Browse Space Pic Contests
+              </div>
+          </div>
+        </div>
+  </div>
+</body>
+</html>

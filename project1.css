@@ -1,0 +1,367 @@
+/* 1st div */
+.main
+{
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 65px;
+    line-height: 20px;
+    background-color:white;
+}
+.logo
+{
+    margin-left: 0%;
+    flex-wrap: wrap;
+}
+.navigation
+{
+    margin-left: 3%;
+    width: 40%;
+    background-color:skyblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+  .navigation span a
+  {
+     text-decoration: none;
+     color: white;
+     justify-content: space-between;
+  }
+  .button
+  {
+  background-color: white;
+  /* color: black; */
+  cursor: pointer;
+  border:2px solid skyblue;
+  margin:5px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 135px;
+  height: 30px;
+  text-align: center;
+  padding-top: 9px;
+  align-items: center;
+  color:skyblue;
+  }
+  
+  /* .button:hover{
+    transform: scale(1.2);
+    background-color:skyblue;
+    color:beige;
+  } */
+.navigation span a:hover
+{
+  background-color:grey;
+  transform: scale(1.5);
+  color:aliceblue;
+  transition-duration: 2s;
+}
+
+/* end of 1st div */
+/* 2nd div */
+.main1
+{
+  background-image: url(./banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1480px;
+  height:700px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ align-content: center;
+ justify-content: center;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button1{
+  color:white;
+  cursor: pointer;
+  border:1px inset white;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+  padding-top: 10px;
+  text-align: center;
+  margin-left: 60px;
+  margin-top: 30px;
+
+}
+.watch{
+  color: white !important ;
+  margin-left: 25%;
+  margin-top: -38px;
+
+}
+.button1:hover{
+  transform: scale(1.2);
+  background-color:skyblue;
+  color:beige;
+}
+ .span2
+ {
+  font-size: 2.8em;
+  font-weight: bolder;
+  border-bottom: 1px outset white; 
+  width: 760px;
+  text-align: center;
+  padding-bottom: 50px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.border
+{
+  border: 2px inset  black;
+  width: 100px;
+ 
+
+}  
+/* end of 2nd div */
+/* 3rd div */
+.main3
+{
+display: flex;
+/* flex-wrap: wrap; */
+flex-direction: row;
+position: absolute;
+top: 93%;
+justify-content:space-evenly;
+}
+.main3>div{
+  margin-left: 9%;
+}
+.main3{
+
+}
+ 
+/* end of 3rd div */
+/* 4th div */
+.main4{
+  display: flex;
+flex-wrap: wrap;  
+  margin-top: 150px;
+}
+.content3 button{
+  width: 200px;
+  height: 40px;
+  background-color:skyblue;
+  border-radius: 10px;
+  margin-left: 1300px;
+  border: none;
+  color: white;
+  margin-top: -3%;
+}
+.content4
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+/* end of 4th div */
+/* 5th div */
+.categories{
+  width: 100%;
+  height: 40vh;
+  
+}
+
+.categories_flex{
+  /* display: grid;
+  grid-template-rows: repeat(4,1fr);
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4,1fr); */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* background-color: red; */
+  justify-content: space-evenly;
+  
+}
+.box1{
+  
+  width: 300px;
+  height: 320px;
+  border: 0.5px outset black;
+  border-radius: 8%;
+  text-align: center;
+}
+
+.box1 h3{
+  margin-left: 20%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box1 span{
+   padding: 2px;
+   color:grey;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: lighter;
+   margin-left: 10%;
+   border:1px  white;
+
+}
+.button2{
+  color:skyblue;
+  cursor: pointer; 
+  border:1px inset skyblue; 
+  font-size: 15px;
+  border-radius: 10px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 5px;
+  margin-top: 4%;
+  margin-left: 9%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* end of 5th div */
+/* 6th div */
+.main6{
+  background-image: url(./closed-bg.jpg);
+  width: 100%;
+  height: 800px;
+  margin-top: 7%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+.content5{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.imagediv{
+  /* width: 80vw; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+
+}
+.content5 p{
+  font-size: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#img1{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 400px;
+  
+  justify-content: space-around;
+  
+}
+/* 9th div */
+    .main9 
+    {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin-top: 2%;
+      align-items: center;
+    }
+    .pricing
+    {
+      margin-top: 10px;
+      font-size: large;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: skyblue;
+    }
+    .photo
+    {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: xx-large;
+     margin-top: 15px;
+    }
+    .bottomimg
+    {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-top: 35px;
+    }
+    .basic
+    {
+      border-bottom: 0.5px solid black;
+      width: 350px;
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      border: 0.5px solid black;
+      height: 500px;
+      border-radius: 10%;
+      
+    }
+    .basic p{
+      font-family:'Times New Roman', Times, serif;
+      color: skyblue;
+    }
+    .buttonlast{
+      cursor: pointer;
+     align-items: center;
+     /* width: 250px;
+     height: 200px; */
+     /* padding-left: 20%; */
+     padding-left:15%;
+    
+    }
+    #footer{
+      background-color: skyblue;
+      height: 40px;
+      width: 100%;
+      text-align: center;
+      align-content: center;
+      margin-top: 67px;
+    
+    }
+@media screen and (max-width:400px){
+  .navigation
+{
+
+    width: 100%;
+    background-color:skyblue;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+  .navigation span a
+  {
+     text-decoration: none;
+     color: white;
+     justify-content: space-between;
+  }
+  .main
+{
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 65px;
+    line-height: 20px;
+    background-color:white;
+    flex-direction: row;
+}
+}
+
+    
+    
+    
+      
+     
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Image Template</title>
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Light gray background */
+  }
+
+  .image-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .image-wrapper img {
+    margin: 10px;
+    border-radius: 5%;
+  }
+
+  /* Adjust image sizes for different screen sizes */
+  @media (max-width: 768px) {
+    .image-wrapper img {
+      width: 100%;
+    }
+  }
+
+  /* Arrow Images */
+  img[alt="Previous"], img[alt="Next"] {
+    width: 20px;
+    height: 20px;
+    background-color: #333; /* Dark gray background for arrows */
+    color: white; /* White text for arrow icons (replace with icons if desired) */
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer; /* Set cursor to pointer on hover */
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <img src="./arrow front.png" alt="Previous" width="20" height="20">
+  <div class="image-wrapper">
+    <img src="./featured-03.jpg" alt="Image 1">
+    <img src="./Screenshot 2024-05-18 130930.png" alt="Image 2" width="20" height="20">
+    <img src="./featured-02.jpg" alt="Image 3">
+  </div>
+  <img src="./arrow back.png" alt="Next" width="20" height="20">
+</div>
+</body>
+</html>
+
+</body>
+</html>
